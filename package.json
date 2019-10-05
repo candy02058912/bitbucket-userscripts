@@ -5,6 +5,10 @@
   "repository": "https://github.com/candy02058912/bitbucket-userscripts.git",
   "author": "Candy Tsai <candy02058912@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build:dev": "webpack --mode=development --watch",
+    "build": "webpack --mode=production"
+  },
   "devDependencies": {
     "@babel/cli": "^7.6.2",
     "@babel/core": "^7.6.2",
